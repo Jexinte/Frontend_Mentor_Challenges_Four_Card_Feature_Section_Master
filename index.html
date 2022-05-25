@@ -5,40 +5,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Frontend Mentor | Four card feature section - Yokke</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
+  
 </head>
 <body>
+  <section class="container">
+
+    <ul class="description">
+
+      <h1>Reliable, efficient delivery <br> <span class="powered">Powered by Technology</span> </h1>
+      <p>Our Artificial Intelligence powered tools use millions of project data <br>
+      points to ensure that your project is successful</p>
+    </ul>
+
+  </section>
   
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
   
+  <section class="container--banner">
+
+    <!-- BANNER VERTICAL -->
+    
+    <article class="banner__vertical">
+
+      <ul class="banner__vertical--component" id="teamBuilder">
+        <li class="title">Team Builder</li>
+        <li class="details">Scans our talent network to create the <br> optimal team for your project</li>
+        <img class="icons" src="./images/icon-team-builder.svg" alt="A house with internet windows">
+      </ul>
+      
+      <ul class="banner__vertical--component"  id="karma">
+        <li class="title">Karma</li>
+        <li class="details">Regularly evaluates our talent to ensure <br> quality</li>
+        <img class="icons" src="./images/icon-karma.svg" alt="A lightbulb">
+      </ul>
+     
+    </article>
+
+    <!-- END OF BANNER VERTICAL -->
+
+    <!-- BANNER HORIZONTAL -->
+    
+    <article class="banner__horizontal">
+
+        <ul class="banner__horizontal--component" id="supervisor">
+
+          <li class="title">Supervisor</li>
+          <li class="details">Monitors activity to identify project <br> roadblocks</li>
+          <img class="icons" src="./images/icon-supervisor.svg" alt="A magnifier">
+        </ul>
+        
+        <ul class="banner__horizontal--component" id="calculator">
+          <li class="title">Calculator</li>
+          <li class="details">Uses data from past projects to provide <br> better delivery estimates</li>
+          <img class="icons" src="./images/icon-calculator.svg" alt="A calculator">
+        </ul>
+
+    </article>
+
+    <!--  END OF BANNER HORIZONTAL -->  
+  </section>
+   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Yokke</a>.
     </p>
   </footer>
 </body>
